@@ -1,8 +1,3 @@
-/*SELECTOR UNIVERSAL Quito margenes que vienen por default*/
-  * { 
-    margin: 0% auto;
-    }
-
 /*RESPONSIVE DESIGN*/
 @media screen and (max-width: 1920px){
     body{
