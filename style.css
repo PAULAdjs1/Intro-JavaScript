@@ -6,7 +6,7 @@
         }
 
     header #flex-container-1 {
-        margin: 10px;
+        margin: 20px;
         display: flex;
         justify-content: space-around;
         }
@@ -22,9 +22,9 @@
             }
     
         header #flex-container-1 {
-            margin: 10px;
+            margin: 20px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
 
         li {display: inline-block}   
@@ -39,8 +39,9 @@
         }
 
 header #flex-container-1 {
-        display: inline-block;
-        margin: 10px;
+        display:flex;
+        align-items: center;
+        margin: 25px;
         }
 
     li {display: inline-block}   
