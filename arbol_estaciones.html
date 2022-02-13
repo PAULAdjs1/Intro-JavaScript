@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head> 
+    <title>JavaScript 2</title>
+    <link rel="stylesheet" type="text/css" href="estilo-estaciones.css">
+</head>
+<body>
+    <h1>
+        Introducción a JavaScript - Ejercicio 2
+    </h1>
+    <h3>
+        Haz click en el botón para ejecutar el programa. Puedes indicar un mes del año y te dirá en que estación estamos.
+    </h3>
+    <figure>
+            <img src="Estaciones-del-año.png" style="width: 35%;">
+    </figure>
+    <table border="5">
+        <tr>
+            <td>
+                Número del mes
+            </td>
+            <td>
+                Nombre del mes
+            </td>
+            <td>
+                Estación del año
+            </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Enero</td>
+            <td>Invierno</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Febrero</td>
+            <td>Invierno</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Marzo</td>
+            <td>Primavera</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Abril</td>
+            <td>Primavera</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Mayo</td>
+            <td>Primavera</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Junio</td>
+            <td>Verano</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Julio</td>
+            <td>Verano</td>
+        </tr> 
+        <tr>
+            <td>8</td>
+            <td>Agosto</td>
+            <td>Verano</td>
+        </tr>   
+        <tr>
+            <td>9</td>
+            <td>Septiembre</td>
+            <td>Otoño</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Octubre</td>
+            <td>Otoño</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Noviembre</td>
+            <td>Otoño</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Diciembre</td>
+            <td>Invierno</td>
+        </tr>
+       </table>
+       <br>
+    <button type="button" onclick="myFunction()">Click aqui</button>
+    <h1 id="demo">Tu estación es: </h1>
+    <figure>
+        <img id="arbol" src="arbol.jpg">
+    </figure>
+    <script type="text/JavaScript">
+    var mes;
+    function myFunction(mes){
+        mes = window.prompt ("Introduce el numero que representa el mes" , "");
+        mes = parseInt (mes);
+                if(mes == 1 || mes == 2 || mes == 12){
+                    document.getElementById("demo").innerHTML = "Tu estación es Invierno";
+                    document.getElementById("arbol").src = "invierno.jpg";
+                                    }
+                else if (mes == 3 || mes == 4 || mes == 5) {
+                    document.getElementById("demo").innerHTML = "Tu estación es Primavera";
+                    document.getElementById("arbol").src = "primavera.jpg";
+                }
+                else if (mes == 6 || mes == 7 || mes == 8) {
+                    document.getElementById("demo").innerHTML = "Tu estación es Verano";
+                    document.getElementById("arbol").src = "verano.jpg";
+                }
+                else if (mes == 9 || mes == 10 || mes == 11) {
+                    document.getElementById("demo").innerHTML = "Tu estación es Otoño";
+                    document.getElementById("arbol").src = "otoño.jpg";
+                }
+                else{ 
+                    document.getElementById("demo").innerHTML = "No has dado un numero correcto";
+                } 
+            var arbol = document.getElementById('arbol');    
+           /* function changeImage() {
+                if(mes){
+                   image.src = "invierno.jpg";
+                    }
+                else if () {
+                    image.src = "primavera.jpg";
+                }
+                else if () {
+                    image.src = "verano.jpg";
+                }
+                else if () {
+                   image.src = "otoño.jpg";
+                }*/
+    
+    }
+    </script>
+</body>
+</html>
+
