@@ -1,4 +1,9 @@
 /*RESPONSIVE DESIGN*/
+
+
+
+
+/*PANTALLA GRANDE*/
 @media screen and (max-width: 1920px){
     body{
         background-color: #FFD325;    
@@ -13,39 +18,76 @@
 
     li {display: inline-block}        
 
+    a {font-family: 'Comic Sans';
+    background-color: #F6AED2 ;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
     }
 
+    }
+
+
+
+
+/*PANTALLA TABLET O MEDIA*/    
 @media screen and (max-width: 1280px){
-        body{
-            background-color: #FFD325;   
-            margin: 10px;         
-            }
+    body{
+        background-color: #FFD325;   
+        margin: 10px;         
+        }
     
-        header #flex-container-1 {
-            margin: 20px;
-            display: flex;
-            justify-content: space-around;
+    header #flex-container-1 {
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
         }
 
-        li {display: inline-block}   
+        li {display: inline-block}  
+        
+        a {font-family: 'Comic Sans';
+        background-color: #F6AED2 ;
+        margin: 5px;
+        padding: 30px;
+        text-align: center;
+        font-weight: bold;
+        width: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
 
 }
 
-
+/*PANTALLA MOVIL O PEQUEÑA*/
 @media screen and (max-width: 800px){
     body{
         background-color: #FFD325;
         margin: 10px;
         }
 
-header #flex-container-1 {
+    header #flex-container-1 {
         display:flex;
         align-items: center;
         margin: 25px;
         }
 
     li {display: inline-block}   
-        
+      
+    a {font-family: 'Comic Sans';
+        background-color: #F6AED2 ;
+        margin: 5px;
+        padding: 30px;
+        text-align: center;
+        font-weight: bold;
+        width: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
     }
 
 
