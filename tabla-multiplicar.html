@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Curso de JS">
+    <meta name="author" content="(cc) 3con14" />
+    <title>Tabla de Multiplicar</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="contenedor">
+    <div id="titulo">Tabla de Multiplicar avanzada</div>
+    <div id="info">
+        <p>Tabla de Multiplicar 10x10, de 100 elementos, comenzando en el número indicado.</p>
+    </div>
+
+    <label for="dato">La tabla comienza en: </label>
+    <input type="text" id="dato" size="4" class="dcha" value="1" onfocus="this.select()">
+
+    <br>
+    <button onclick="TablaMultiplicar()" class="boton azul">Ver tabla</button>
+    <div id="resultado"></div>
+
+</div>
+
+<script src="codigo.js"></script>
+</body>
+</html>
