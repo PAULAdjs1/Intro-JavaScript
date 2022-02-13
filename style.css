@@ -1,0 +1,10 @@
+/*SELECTOR UNIVERSAL Quito margenes que vienen por default*/
+  * { 
+    margin: 0% auto;
+    }
+
+/*HOJA DE ESTILOS CSS*/
+
+body{
+    background-color: #FFD325;
+    }
