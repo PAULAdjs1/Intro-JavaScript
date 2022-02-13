@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head> 
+    <title>JavaScript 1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header id="flex-container-1">
+        <div>
+            <figure>
+                <a href="index.html"><img src="logotipo.png" alt="Logotipo-de-donut-Web-JavaScript-Facilito" /></a>
+            </figure>
+        </div>
+        <div>
+            <h1>Introducción a JavaScript</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>      
+                </ul>
+            </nav>
+        </div> 
+    <h1>
+        Introducción a JavaScript - Ejercicio 1 - Even and odd / Par o impar
+    </h1>
+    <h3 id="demo">
+        Haz click en el botón para ejecutar el programa. Puedes indicar un numero y te dirá si es par o impar.
+    </h3>
+    <button type="button" onclick="myFunction()">Click aqui</button>
+
+<article>
+    <figure>
+        <img src="javaScript_1_par_impar.jpg"/>
+    </figure>
+</article>
+
+    <script type="text/JavaScript">
+        var numero1;
+         function myFunction(numero1){
+        numero1 = window.prompt ("Introduce un numero" , "");
+        numero1 = parseInt (numero1);
+                if(numero1 % 2 == 0){
+                    document.getElementById("demo").innerHTML = "Tu numero es par!";
+                }
+                else{ 
+                    document.getElementById("demo").innerHTML = "Tu numero es impar!";
+                }   
+        }
+    </script>
+</body>
+</html>
