@@ -2,11 +2,29 @@
 <html lang="es-es">
 <head> 
     <title>JavaScript 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="estilo-estaciones.css">
 </head>
 <body>
+    <header id="flex-container-1">
+        <div>
+            <figure>
+                <a href="index.html"><img src="logotipo.png" alt="Logotipo-de-donut-Web-JavaScript-Facilito" /></a>
+            </figure>
+        </div>
+        <div>
+            <h1>Introducción a JavaScript</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>      
+                </ul>
+            </nav>
+        </div> 
+    </header>
+
+
     <h1>
-        Introducción a JavaScript - Ejercicio 2
+        Introducción a JavaScript - Ejercicio 2 con IF / ELSE
     </h1>
     <h3>
         Haz click en el botón para ejecutar el programa. Puedes indicar un mes del año y te dirá en que estación estamos.
@@ -93,6 +111,13 @@
     <figure>
         <img id="arbol" src="arbol.jpg">
     </figure>
+    <article>
+        <figure>
+            <img src="codigo-estaciones-arbol.png"/>
+        </figure>
+    </article>
+
+
     <script type="text/JavaScript">
     var mes;
     function myFunction(mes){
@@ -117,21 +142,7 @@
                 else{ 
                     document.getElementById("demo").innerHTML = "No has dado un numero correcto";
                 } 
-            var arbol = document.getElementById('arbol');    
-           /* function changeImage() {
-                if(mes){
-                   image.src = "invierno.jpg";
-                    }
-                else if () {
-                    image.src = "primavera.jpg";
-                }
-                else if () {
-                    image.src = "verano.jpg";
-                }
-                else if () {
-                   image.src = "otoño.jpg";
-                }*/
-    
+            var arbol = document.getElementById('arbol');        
     }
     </script>
 </body>
